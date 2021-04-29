@@ -63,6 +63,7 @@
 ### Demand Paging
 
 - Demand paging map pages of virtual memory to physical mmory on-demand
+- Demand paging follows that pages should only be brought into memory if the executing process demands them
 - Defers CPU overhead of creating mappings until they are actually needed and accessed
 - Sequence:
     1. Write to a newly allocated page of virtual mapping
